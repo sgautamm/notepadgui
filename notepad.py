@@ -75,11 +75,6 @@ def paste():
 def about():
     showinfo("Notepad", "Notepad")
 
-def size():
-    pass
-
-def style():
-    pass
 
 
 
@@ -106,8 +101,8 @@ menubar.add_cascade(label="Edit",menu=editmenu)
 editmenu.add_command(label = "Cut", command=cut)
 editmenu.add_command(label = "Copy", command=copy)
 editmenu.add_command(label = "Paste", command=paste)
-editmenu.add_command(label="Font_size",command=size)
-editmenu.add_command(label="Font_Style",command=style)
+# editmenu.add_command(label="Font_size",command=size)
+# editmenu.add_command(label="Font_Style",command=style)
 
 
 helpmenu=tk.Menu(menubar,tearoff=0)
